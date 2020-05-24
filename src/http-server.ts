@@ -1,4 +1,4 @@
-import { Application, Router } from "https://deno.land/x/oak/mod.ts";
+import { Application, Router } from "https://deno.land/x/oak@v4.0.0/mod.ts";
 import { CONTROLLERS } from "./controllers/index.ts";
 
 export class HttpServer {

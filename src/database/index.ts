@@ -1,5 +1,5 @@
-import { Database } from "https://deno.land/x/denodb/mod.ts";
 import { GameEntity } from "./game.entity.ts";
+import { Database } from "../deps.ts";
 
 export interface DatabaseConfiguration {
   filepath: string;

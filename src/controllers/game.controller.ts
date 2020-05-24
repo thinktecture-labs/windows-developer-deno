@@ -2,8 +2,7 @@ import { Controller } from "./controller.ts";
 import {
   Router,
   RouterContext,
-  BodyOptions,
-} from "https://deno.land/x/oak/mod.ts";
+} from "../deps.ts";
 import { GameEntity } from "../database/game.entity.ts";
 import { databaseProvider } from "../database/index.ts";
 

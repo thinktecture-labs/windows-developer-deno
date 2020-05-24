@@ -1,4 +1,4 @@
-import { DATA_TYPES, Database, Model } from "https://deno.land/x/denodb/mod.ts";
+import { Model, DATA_TYPES } from "../deps.ts";
 
 export class GameEntity extends Model {
   static table = "games";

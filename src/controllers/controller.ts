@@ -1,5 +1,5 @@
-import { Router } from 'https://deno.land/x/oak/mod.ts';
+import { Router } from "https://deno.land/x/oak@v4.0.0/mod.ts";
 
 export interface Controller {
-    initialize(router: Router): void;
+  initialize(router: Router): void;
 }
